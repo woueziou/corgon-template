@@ -44,7 +44,7 @@ Run for deployment
 $ pnpm build
 ```
     
-## Plugins
+## Dependencies embedded
 
 - [**Vee validate**](https://vee-validate.logaretm.com/v4/) ```handle forms in Vue```
 - [**Zod**](https://zod.dev) ``` use this to validate data```

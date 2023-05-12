@@ -1,0 +1,40 @@
+{
+  "name": "app_annuary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@vee-validate/zod": "^4.8.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.36",
+    "v-route-generate": "^1.0.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^20.1.1",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vueuse/core": "^9.13.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.8.4",
+    "unplugin-vue-components": "^0.24.1",
+    "vitawind": "^2.0.0",
+    "vite": "^2.7.2",
+    "vite-plugin-pages": "^0.29.0",
+    "vite-plugin-pages-sitemap": "^1.5.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
